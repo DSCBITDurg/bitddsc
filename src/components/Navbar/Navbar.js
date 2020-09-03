@@ -19,8 +19,8 @@ export default function Navbar(){
             </div>
 
             <div className={styles.buttonsContainer}>
-                <NavLink activeClassName={styles.activeLink} to="/collab"><GroupAddIcon fontSize="large"/></NavLink>
-                <NavLink activeClassName={styles.activeLink} to="/badges"><CardMembershipIcon fontSize="large"/></NavLink>
+                {/* <NavLink activeClassName={styles.activeLink} to="/collab"><GroupAddIcon fontSize="large"/></NavLink>
+                <NavLink activeClassName={styles.activeLink} to="/badges"><CardMembershipIcon fontSize="large"/></NavLink> */}
                 <NavLink activeClassName={styles.activeLink} to="/user"><PersonIcon fontSize="large"/></NavLink>
             </div>
         </div>

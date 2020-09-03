@@ -37,10 +37,18 @@ function AboutPage() {
             <div className={cx(styles.aboutus,"animate__animated animate__backInLeft")}>
 
                 <h1>About Us</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <p>
+                    To multifold your academic knowledge inside college ,we pop
+                    up with an intend to bridge the gap between theory and practice.We 
+                    yield mentorship and guidance to all those fellow students at undergraduate 
+                    level who are passionate developing impactful solution initiatives that could 
+                    facilitate and aid the society. Moreover, we  hold structured seminars , events 
+                    ,regular  coding contests to inculcate peer-to-peer learning  and bestow both awareness 
+                    and practice on ongoing trending technologies in corporate.Our object lies solemnly on training 
+                    you in varied demanded skills of the time and at the same time connecting you with the 
+                    professionals all over india to motivate you.Lastly,we embed our assistance by providing
+                    resources of various dimensions
+                    which comes along with varied courses rendered by us.
                 </p>
 
             </div>
