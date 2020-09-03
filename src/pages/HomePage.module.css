@@ -1,5 +1,11 @@
 .container{
  
     margin-top: 15em;
-    
+    /* display:flex; */
+
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
 }
