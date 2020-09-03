@@ -13,7 +13,7 @@ export default function Header(){
     return(
         <div className={styles.headerContainer}>
             
-            <img src={dscIcon} className={styles.dscLogo}/>
+            <img src={dscIcon} className={styles.dscLogo} alt="Loading..."/>
             
             <Navbar/>
         </div>

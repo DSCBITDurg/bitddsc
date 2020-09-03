@@ -11,7 +11,7 @@ import styles from './GalleryCard.module.css';
 export default function GalleryCard(props){
     return(
         <div className={styles.container}>
-            <div className={styles.img}><img src={props.img}/></div>
+            <div className={styles.img}><img src={props.img} alt="Loading..."/></div>
             <div className={styles.main}>
                 <div className={styles.title}>
                     <p>{props.title}</p>
