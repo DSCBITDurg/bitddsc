@@ -1,5 +1,5 @@
 .container{
-    width: 100px;
+    width: 250px;
     display: flex;
     margin: 2em;
     flex-direction: column;
@@ -19,6 +19,5 @@
     width: 5em;
     height: auto;
     border-radius: 50% ;
-    
     border: 2px solid rgba(0,0,0,0.8)
 }

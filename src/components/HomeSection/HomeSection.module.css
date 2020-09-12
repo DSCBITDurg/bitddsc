@@ -1,0 +1,49 @@
+.mainContainer{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    height: fit-content;
+    justify-content: space-between;
+    background-color: ghostwhite;
+}
+.leftSection, .rightSection{
+    display: flex;
+    flex-direction: column;
+}
+.leftSection{
+    flex-grow:1.5;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+
+}
+
+.rightSection{
+    /* width: 50px; */
+    border-radius: 2px solid black;
+    object-fit: contain;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.sectionHeading{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: darkslategrey;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.mainContent{
+   font-size: 1rem;
+    font-weight: 600;
+    line-height: 160%;
+    width: 90%;
+}
+.disImage{
+    
+    object-fit: cover;
+    width: 100%;
+}

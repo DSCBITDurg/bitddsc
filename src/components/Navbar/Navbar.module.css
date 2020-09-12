@@ -26,11 +26,16 @@
     color: var(--primary-font-color);
     font-size: var(--primary-font-size);
 }
-
+.navLink:hover{
+    text-decoration: none;
+    font-weight: 600;
+    color:black;
+}
 
 
 .activeLink{
     border-bottom: 2px solid rgba(0,0,0,0.5);
+
 }
 
 
