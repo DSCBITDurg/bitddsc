@@ -24,8 +24,6 @@ export default function Navbar() {
 					About
 				</NavLink>
 				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/contact">
-					Contact
-				</NavLink>
 			</div>
 
 			<div className={styles.buttonsContainer}>
@@ -37,5 +35,4 @@ export default function Navbar() {
 			</div>
 		</div>
 	);
-	
 }
