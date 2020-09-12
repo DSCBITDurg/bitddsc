@@ -23,7 +23,7 @@ export default function Navbar() {
 				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/about">
 					About
 				</NavLink>
-				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/contact"></NavLink>
+				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/contact">Contact</NavLink>
 			</div>
 
 			<div className={styles.buttonsContainer}>
