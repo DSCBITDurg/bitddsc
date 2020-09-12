@@ -11,21 +11,19 @@ export default function Navbar() {
 	return (
 		<div className={styles.navbarContainer}>
 			<div className={styles.linksContainer}>
-				<NavLink exact activeClassName={styles.activeLink} to="/">
+				<NavLink exact activeClassName={styles.activeLink} className={styles.navLink} to="/">
 					Home
 				</NavLink>
-				<NavLink activeClassName={styles.activeLink} to="/events">
+				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/events">
 					Events
 				</NavLink>
-				<NavLink activeClassName={styles.activeLink} to="/blog">
+				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/blog">
 					Blog
 				</NavLink>
-				<NavLink activeClassName={styles.activeLink} to="/about">
+				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/about">
 					About
 				</NavLink>
-				<NavLink activeClassName={styles.activeLink} to="/contact">
-					Contact
-				</NavLink>
+				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/contact">Contact</NavLink>
 			</div>
 
 			<div className={styles.buttonsContainer}>
