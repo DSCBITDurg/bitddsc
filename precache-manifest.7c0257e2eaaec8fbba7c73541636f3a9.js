@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1fea82f6ee9fb3d8e0090631b049c0c4",
+    "revision": "0486b876942f0df240121bd53983b211",
     "url": "/bitddsc/index.html"
   },
   {
-    "revision": "fbb81ec5db15a5748910",
+    "revision": "573575142fd8b8901972",
     "url": "/bitddsc/static/css/2.c6f1d12b.chunk.css"
   },
   {
-    "revision": "39f13bff8e62334f8098",
-    "url": "/bitddsc/static/css/main.6f332707.chunk.css"
+    "revision": "0d934af0443be56bc8d1",
+    "url": "/bitddsc/static/css/main.03caa2e5.chunk.css"
   },
   {
-    "revision": "fbb81ec5db15a5748910",
-    "url": "/bitddsc/static/js/2.6794c0bd.chunk.js"
+    "revision": "573575142fd8b8901972",
+    "url": "/bitddsc/static/js/2.1a78fd72.chunk.js"
   },
   {
-    "revision": "cb59ff19cf2dee29ace8b51198822910",
-    "url": "/bitddsc/static/js/2.6794c0bd.chunk.js.LICENSE.txt"
+    "revision": "7bfaa32b315fe466d84ab2ae49052d17",
+    "url": "/bitddsc/static/js/2.1a78fd72.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "39f13bff8e62334f8098",
-    "url": "/bitddsc/static/js/main.3235608a.chunk.js"
+    "revision": "0d934af0443be56bc8d1",
+    "url": "/bitddsc/static/js/main.e634615b.chunk.js"
   },
   {
     "revision": "7a08e599f46071f942a2",
