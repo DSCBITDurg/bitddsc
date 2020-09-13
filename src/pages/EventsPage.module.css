@@ -13,6 +13,9 @@
     width: 20%;
     padding-right: 20px;
 }
+.modal:hover{
+    cursor: pointer;
+}
 
 .button{
     padding: 20px;
