@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer';
 // import pages
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import BlogPage from './pages/BlogPage';
+
 import ContactPage from './pages/ContactPage';
 import EventsPage from './pages/EventsPage';
 
@@ -30,7 +30,7 @@ export default function Router() {
                 <Switch>
                     <Route exact path='/' component={HomePage}/>
                     <Route  path='/about' component={AboutPage}/>
-                    <Route  path='/blog' component={BlogPage}/>
+
                     <Route  path='/contact' component={ContactPage}/>
                     <Route  path='/events' component={EventsPage}/>
 
