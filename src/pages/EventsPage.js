@@ -5,6 +5,7 @@ import cx from 'classnames';
 //components
 import EventCard from '../components/EventCard/EventCard';
 import GalleryCard from '../components/GalleryCard/GalleryCard'
+import {EventModal} from '../components/EventModal/EventModal'
 // import css file
 import styles from './EventsPage.module.css';
 
@@ -12,7 +13,9 @@ import styles from './EventsPage.module.css';
 import {db} from '../firebase.js'
 
 function EventsPage() {
-
+    const [modalShow, setModalShow] = useState(false);
+    const [modalProps, setModalProps] = useState({title:"",
+                                                  desc:"", thumbnail:"",date:"",form:"",author:"",venue:""})
     const [activeButtons,setActiveButtons] = useState({upcoming_events:true,past_events:false,gallery:false});
     // const allEvents = []
     // const pastEvents = []
@@ -92,7 +95,15 @@ function EventsPage() {
                         {
                             allEvents.map((event,index) => 
                                 !event.done &&
-                                <EventCard img={event.thumbnail} title={event.title} desc={event.description} date={event.date} form={event.form} key={index}/>
+                                <div  className={cx(styles.modal)} onClick={() => {setModalShow(true); setModalProps({
+                                    title:event.title,
+                                    desc:event.description, thumbnail:event.thumbnail,
+                                    date:event.date, form:event.form, author:"",venue:event.venue 
+                                }) }} >
+
+                                    <EventCard img={event.thumbnail} title={event.title} desc={event.description} date={event.date} form={event.form} key={index}/>
+
+                                </div>
                             
                         )   
                         }
@@ -109,7 +120,15 @@ function EventsPage() {
                         {
                             allEvents.map((event,index) => 
                             event.done && 
-                            <EventCard img={event.img} title={event.title} desc={event.desc} date={event.date} key={index}/>
+                            <div  className={cx(styles.modal)} onClick={() => {setModalShow(true); setModalProps({
+                                title:event.title,
+                                desc:event.description, thumbnail:event.thumbnail,
+                                date:event.date, form:event.form, author:"",venue:event.venue 
+                            }) }} >
+
+                                <EventCard img={event.thumbnail} title={event.title} desc={event.description} date={event.date} form={event.form} key={index}/>
+
+                            </div>
                         )   
                         }
 
@@ -131,6 +150,11 @@ function EventsPage() {
                         }
                     </div>
                 }
+                <EventModal
+                    show={modalShow}
+                    {...modalProps}
+                    onHide={() => setModalShow(false)}
+                    />
             </div>
         </div>
     );
