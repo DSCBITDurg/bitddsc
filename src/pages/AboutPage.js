@@ -1,36 +1,34 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import cx from 'classnames'
 
 //import components
 import ProfileCard from '../components/ProfileCard/ProfileCard';
 // import css file
 import styles from './AboutPage.module.css';
-
+import {db} from "../firebase.js"
 function AboutPage() {
+    const [members, setMembers] = useState([])
 
+    const fetchMembersFromDb = async () => {
+        await db.collection("members")
+        .get()
+        .then(querySnapshot => {
+        const data = querySnapshot.docs.map(doc => doc.data());
+            // setAllEvents(data); // array of cities objects
+            // data.forEach(event => allEvents.push(event))
+           
+            setMembers([...data])
 
-    const dummyTeam = [
-        {
-            img: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-            name: 'gs rohit',
-            desc: 'tech lead',
-        },
-        {
-            img: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-            name: 'gs rohit',
-            desc: 'tech lead',
-        },
-        {
-            img: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-            name: 'gs rohit',
-            desc: 'tech lead',
-        },
-        {
-            img: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-            name: 'gs rohit',
-            desc: 'tech lead',
-        }
-    ];
+        });
+        // sortEvents();
+
+    }
+
+    useEffect( () => {
+        // Update the document title using the browser API
+        fetchMembersFromDb();
+
+      },[]);
 
     return (
         <div className={cx(styles.container)}>
@@ -57,7 +55,10 @@ function AboutPage() {
                 <h1>Our Team</h1>
                 <div className={styles.teampics}>
                     {
-                        dummyTeam.map((member,index)=> <ProfileCard key={index} img={member.img} name={member.name} desc={member.desc}/>)
+                        members.map((member,index)=> member.active &&
+                        <ProfileCard key={index} img={member.pic} name={member.name} 
+                                     desc={member.desc} github={member.github} 
+                                     mail={member.mail} linkedin={member.linkedin} />)
                     }
                 </div>
             </div>
