@@ -19,6 +19,7 @@ export default function EventCard(props){
                 <div className={styles.desc}>
                     <p>{props.desc}</p>
                 </div>
+                    {props.form && <p>Register here - {props.form}</p>}
                 <div className={styles.date}>
                     <p>{props.date}</p>
                 </div>
