@@ -28,11 +28,10 @@ export default function Router() {
             <Header/>
             <Layout>
                 <Switch>
-                    <Route exact path={`${githubUrlPage}/`} component={HomePage} />
-                    <Route  path={`${githubUrlPage}/about`} component={AboutPage}/>
-
-                    <Route  path={`${githubUrlPage}/contact`} component={ContactPage}/>
-                    <Route  path={`${githubUrlPage}/events`} component={EventsPage}/>
+                    <Route exact path='/' component={HomePage} />
+                    <Route  path='/about' component={AboutPage}/>
+                    <Route  path='/contact' component={ContactPage}/>
+                    <Route  path='/events' component={EventsPage}/>
                     <Route component={HomePage}/>
                     {/* <Route  path='/collab' component={CollabPage}/>
                     <Route  path='/badges' component={BadgePage}/>
