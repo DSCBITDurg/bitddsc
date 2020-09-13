@@ -24,11 +24,11 @@ import Layout from './components/Layout/Layout';
 export default function Router() {
     return (
         
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Header/>
             <Layout>
                 <Switch>
-                    <Route exact path='/' component={HomePage}/>
+                    <Route exact path='/' component={HomePage} />
                     <Route  path='/about' component={AboutPage}/>
 
                     <Route  path='/contact' component={ContactPage}/>
