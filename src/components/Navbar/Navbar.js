@@ -22,13 +22,13 @@ export default function Navbar() {
 				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/contact">Contact Us</NavLink>
 			</div>
 
-			<div className={styles.buttonsContainer}>
+			{/* <div className={styles.buttonsContainer}> */}
 				{/* <NavLink activeClassName={styles.activeLink} to="/collab"><GroupAddIcon fontSize="large"/></NavLink>
                 <NavLink activeClassName={styles.activeLink} to="/badges"><CardMembershipIcon fontSize="large"/></NavLink> */}
-				<NavLink activeClassName={styles.activeLink} to="/user">
+				{/* <NavLink activeClassName={styles.activeLink} to="/user">
 					<PersonIcon fontSize="large" />
 				</NavLink>
-			</div>
+			</div> */}
 		</div>
 	);
 }
