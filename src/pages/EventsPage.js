@@ -30,6 +30,7 @@ function EventsPage() {
     // }
     const convertToDate = (timestamp) => {
         let date = new Date(timestamp);
+        console.log(date)
         return `${date}`
     }
     const fetchFromDb = async () => {
@@ -40,7 +41,7 @@ function EventsPage() {
             // setAllEvents(data); // array of cities objects
             // data.forEach(event => allEvents.push(event))
             data.forEach(event => {
-                let date = convertToDate(event.scheduled_on.seconds)
+                let date = convertToDate(event.scheduled_on.toDate())
                 event["date"] = date
             })
             setAllEvents([...data]);
