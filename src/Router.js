@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 
 // import component
@@ -20,11 +20,11 @@ import EventsPage from './pages/EventsPage';
 
 import Layout from './components/Layout/Layout';
 
-const githubUrlPage = 'https://dscbitdurg.github.io/bitddsc'
+
 export default function Router() {
     return (
         
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={process.env.PUBLIC_URL}>
             <Header/>
             <Layout>
                 <Switch>
@@ -40,7 +40,7 @@ export default function Router() {
                 </Switch>
             </Layout>
             <Footer/>
-        </BrowserRouter>
+        </HashRouter>
         
     );
 }
