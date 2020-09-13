@@ -13,9 +13,9 @@ export default function ProfileCard(props){
             <img src={props.img} className={styles.profilePic} alt="Loading..."/>
             <p>{props.name}</p>
             <p>{props.desc}</p>
-            <a href={props.github}>Github</a>
-            <a href={props.linkedin}>Linkedin</a>
-            < a href={`mailto:${props.mail}`}>Mail</a>
+            <a href={props.github} target="_blank">Github</a>
+            <a href={props.linkedin} target="_blank">Linkedin</a>
+            <a href={`mailto:${props.mail}`}>Mail</a>
         </div>
     );
 }
