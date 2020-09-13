@@ -15,21 +15,33 @@ export default function NavbarComp() {
 			<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 			<Navbar.Collapse id="responsive-navbar-nav">
 				<Nav className="mr-auto">
-					<NavLink exact activeClassName={styles.activeLink} className={styles.navLink} to="/">
-					Home
-					</NavLink>
-					<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/events">
-					Events
-					</NavLink>
-					<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/blog">
-						Blog
-					</NavLink>
-					<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/contact">
-						Contact
-					</NavLink>
-					<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/about" >
-						About Us
-					</NavLink>
+					<Nav.Link href="#">
+						<NavLink exact activeClassName={styles.activeLink} className={styles.navLink} to="/">
+						Home
+						</NavLink>
+					</Nav.Link>
+
+					<Nav.Link href="#">
+						<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/events">
+						Events
+						</NavLink>
+					</Nav.Link>
+				
+					<Nav.Link href="https://bitddsc.hashnode.dev/">
+						<a target="_blank" href="https://bitddsc.hashnode.dev/" className={styles.navLink}>Blog</a>
+					</Nav.Link>
+				
+					<Nav.Link href="#">
+						<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/contact">
+							Contact
+						</NavLink>
+					</Nav.Link>
+					
+					<Nav.Link href="#">
+						<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/about" >
+							About Us
+						</NavLink>
+					</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 			</Navbar>
