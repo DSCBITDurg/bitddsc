@@ -36,7 +36,7 @@ function AboutPage() {
         <div className={cx(styles.container)}>
             <div className={cx(styles.aboutus,"animate__animated animate__backInLeft")}>
 
-                <h1>About Us</h1>
+                <h1>About</h1>
                 <p>
                     To multifold your academic knowledge inside college ,we pop
                     up with an intend to bridge the gap between theory and practice.We 

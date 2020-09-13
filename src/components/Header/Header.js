@@ -2,9 +2,8 @@ import React from 'react';
 
 //import images
 import dscIcon from '../../assets/images/dscIcon.png';
-
+import NavbarComp from '../NavbarComp/NavbarComp'
 //import components
-import Navbar from '../Navbar/Navbar';
 
 //import styles
 import styles from './Header.module.css';
@@ -15,7 +14,7 @@ export default function Header(){
             
             <img src={dscIcon} className={styles.dscLogo} alt="Loading..."/>
             
-            <Navbar/>
+            <NavbarComp/>
         </div>
     );
 }

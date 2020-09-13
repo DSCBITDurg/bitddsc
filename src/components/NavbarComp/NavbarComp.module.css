@@ -26,10 +26,14 @@
     color: var(--primary-font-color);
     font-size: var(--primary-font-size);
 }
+.navLink{
+    margin: 0px
+}
 .navLink:hover{
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 400;
     color:black;
+    transform: scale(0%);
 }
 
 
