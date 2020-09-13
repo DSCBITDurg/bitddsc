@@ -1,25 +1,24 @@
 .mainContainer{
-    margin: 20px auto;
     display: flex;
     flex-direction: row;
-    padding: 30px;
     height: fit-content;
     justify-content: space-between;
     background-color: ghostwhite;
+    padding:20px;
 }
 .leftSection, .rightSection{
     display: flex;
     flex-direction: column;
 }
 .leftSection{
-    flex-grow:1.5;
+    flex:2.5;
     padding-left: 60px;
-    padding-right: 60px;
+    padding-right: 20px;
     text-align: justify;
-
 }
 
 .rightSection{
+    flex:1;
     /* width: 50px; */
     border-radius: 2px solid black;
     object-fit: contain;
@@ -42,8 +41,31 @@
     line-height: 160%;
     width: 90%;
 }
-.disImage{
-    
+.disImage{   
     object-fit: cover;
     width: 100%;
+}
+
+@media (max-width:760px){
+    .mainContainer{
+        display:flex;
+        flex-direction: column-reverse;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        margin: 0;
+    }
+    .mainContent{
+        width: 100%;
+    }
+    .leftSection, .rightSection{
+        flex:1;
+        padding: 0;
+        margin: 0;
+    }
+    .sectionHeading{
+        margin-top: 30px;
+        font-size: 1.6rem;
+        text-align: left;
+    }
 }

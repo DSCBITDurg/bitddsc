@@ -8,11 +8,8 @@ import dscHomeImage from '../assets/images/dsc-home.svg'
 import HomeSection from '../components/HomeSection/HomeSection';
 function HomePage() {
     return (
-        <div className={styles.container}>
-            <div className={styles.image}>
+        <div className={styles.container}>  
               <HomeSection leftOrientIamge={false}/>
-              
-            </div>
         </div>
     );
 }
