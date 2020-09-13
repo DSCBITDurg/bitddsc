@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bitddsc/static/css/main.3906b4ca.chunk.css",
-    "main.js": "/bitddsc/static/js/main.d07393d0.chunk.js",
-    "main.js.map": "/bitddsc/static/js/main.d07393d0.chunk.js.map",
+    "main.js": "/bitddsc/static/js/main.60d3a929.chunk.js",
+    "main.js.map": "/bitddsc/static/js/main.60d3a929.chunk.js.map",
     "runtime-main.js": "/bitddsc/static/js/runtime-main.10ada4f4.js",
     "runtime-main.js.map": "/bitddsc/static/js/runtime-main.10ada4f4.js.map",
     "static/css/2.c6f1d12b.chunk.css": "/bitddsc/static/css/2.c6f1d12b.chunk.css",
     "static/js/2.c8e0fe60.chunk.js": "/bitddsc/static/js/2.c8e0fe60.chunk.js",
     "static/js/2.c8e0fe60.chunk.js.map": "/bitddsc/static/js/2.c8e0fe60.chunk.js.map",
     "index.html": "/bitddsc/index.html",
-    "precache-manifest.36b212780b8c24497694a00906d264c1.js": "/bitddsc/precache-manifest.36b212780b8c24497694a00906d264c1.js",
+    "precache-manifest.851291bac9dab4e285a5159fd4ef7fbc.js": "/bitddsc/precache-manifest.851291bac9dab4e285a5159fd4ef7fbc.js",
     "service-worker.js": "/bitddsc/service-worker.js",
     "static/css/2.c6f1d12b.chunk.css.map": "/bitddsc/static/css/2.c6f1d12b.chunk.css.map",
     "static/css/main.3906b4ca.chunk.css.map": "/bitddsc/static/css/main.3906b4ca.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.c6f1d12b.chunk.css",
     "static/js/2.c8e0fe60.chunk.js",
     "static/css/main.3906b4ca.chunk.css",
-    "static/js/main.d07393d0.chunk.js"
+    "static/js/main.60d3a929.chunk.js"
   ]
 }
