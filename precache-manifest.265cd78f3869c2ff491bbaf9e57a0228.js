@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a3266b12014e9e66ed7f76428882cda",
+    "revision": "f6f5f3d9cc07d5c1e02e272cdfaee020",
     "url": "/bitddsc/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bitddsc/static/css/2.c6f1d12b.chunk.css"
   },
   {
-    "revision": "ce335717d57a2fbbeb9f",
-    "url": "/bitddsc/static/css/main.68af7aa4.chunk.css"
+    "revision": "ad772f80e4236e0ca917",
+    "url": "/bitddsc/static/css/main.1b4530f7.chunk.css"
   },
   {
     "revision": "fbb81ec5db15a5748910",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bitddsc/static/js/2.6794c0bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce335717d57a2fbbeb9f",
-    "url": "/bitddsc/static/js/main.b3c5d96d.chunk.js"
+    "revision": "ad772f80e4236e0ca917",
+    "url": "/bitddsc/static/js/main.637fa5c2.chunk.js"
   },
   {
     "revision": "7a08e599f46071f942a2",
