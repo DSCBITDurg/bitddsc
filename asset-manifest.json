@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bitddsc/static/css/main.c94ab606.chunk.css",
+    "main.css": "/bitddsc/static/css/main.3906b4ca.chunk.css",
     "main.js": "/bitddsc/static/js/main.d07393d0.chunk.js",
     "main.js.map": "/bitddsc/static/js/main.d07393d0.chunk.js.map",
     "runtime-main.js": "/bitddsc/static/js/runtime-main.10ada4f4.js",
@@ -9,10 +9,10 @@
     "static/js/2.c8e0fe60.chunk.js": "/bitddsc/static/js/2.c8e0fe60.chunk.js",
     "static/js/2.c8e0fe60.chunk.js.map": "/bitddsc/static/js/2.c8e0fe60.chunk.js.map",
     "index.html": "/bitddsc/index.html",
-    "precache-manifest.7166fdb33f652f674c4a7252c336a014.js": "/bitddsc/precache-manifest.7166fdb33f652f674c4a7252c336a014.js",
+    "precache-manifest.36b212780b8c24497694a00906d264c1.js": "/bitddsc/precache-manifest.36b212780b8c24497694a00906d264c1.js",
     "service-worker.js": "/bitddsc/service-worker.js",
     "static/css/2.c6f1d12b.chunk.css.map": "/bitddsc/static/css/2.c6f1d12b.chunk.css.map",
-    "static/css/main.c94ab606.chunk.css.map": "/bitddsc/static/css/main.c94ab606.chunk.css.map",
+    "static/css/main.3906b4ca.chunk.css.map": "/bitddsc/static/css/main.3906b4ca.chunk.css.map",
     "static/js/2.c8e0fe60.chunk.js.LICENSE.txt": "/bitddsc/static/js/2.c8e0fe60.chunk.js.LICENSE.txt",
     "static/media/discord.svg": "/bitddsc/static/media/discord.b3da00d2.svg",
     "static/media/dsc-home.svg": "/bitddsc/static/media/dsc-home.6cd0311d.svg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.10ada4f4.js",
     "static/css/2.c6f1d12b.chunk.css",
     "static/js/2.c8e0fe60.chunk.js",
-    "static/css/main.c94ab606.chunk.css",
+    "static/css/main.3906b4ca.chunk.css",
     "static/js/main.d07393d0.chunk.js"
   ]
 }
