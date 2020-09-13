@@ -7,7 +7,15 @@ function HomeSection({leftOrientImage}) {
             <div className={styles.leftSection}>
                 <h3 className={styles.sectionHeading}>Who Are We?</h3>
                 <div className={styles.mainContent}>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                To multifold the academic knowledge inside college students, we pop up with an intend to bridge the gap between theory and practice.
+
+We yield mentorship and guidance to all those fellow students at undergraduate level who are passionate developing impactful solution initiatives that could facilitate and aid the society. 
+
+Developer’s Student community hosts structured seminars , events ,regular  coding contests to inculcate peer-to-peer learning  and bestow both awareness and practice on ongoing trending technologies in corporate.
+
+Our objective lies solemnly on training students in varied demanded skills of the time and at the same time connecting you with the professionals all over india to motivate you.
+
+We embed our assistance by providing resources of various dimensions which comes along with varied courses rendered by us.
                 </div>
             </div>
             
