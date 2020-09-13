@@ -4,8 +4,6 @@ import { NavLink } from "react-router-dom";
 
 //import icons
 import PersonIcon from "@material-ui/icons/Person";
-import CardMembershipIcon from "@material-ui/icons/CardMembership";
-import GroupAddIcon from "@material-ui/icons/GroupAdd";
 
 export default function Navbar() {
 	return (
@@ -17,13 +15,11 @@ export default function Navbar() {
 				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/events">
 					Events
 				</NavLink>
-				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/blog">
-					Blog
-				</NavLink>
+				<a target="_blank" href="https://bitddsc.hashnode.dev/" className={styles.navLink}>Blog</a>
 				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/about">
-					About
+					About Us
 				</NavLink>
-				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/contact">Contact</NavLink>
+				<NavLink activeClassName={styles.activeLink} className={styles.navLink} to="/contact">Contact Us</NavLink>
 			</div>
 
 			<div className={styles.buttonsContainer}>
