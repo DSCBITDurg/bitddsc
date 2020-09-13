@@ -20,7 +20,7 @@ import UserPage from './pages/UserPage';
 
 import Layout from './components/Layout/Layout';
 
-
+const githubUrlPage = 'https://dscbitdurg.github.io/bitddsc'
 export default function Router() {
     return (
         
@@ -28,15 +28,15 @@ export default function Router() {
             <Header/>
             <Layout>
                 <Switch>
-                    <Route exact path='/' component={HomePage} />
-                    <Route  path='/about' component={AboutPage}/>
+                    <Route exact path={`${githubUrlPage}/`} component={HomePage} />
+                    <Route  path={`${githubUrlPage}/about`} component={AboutPage}/>
 
-                    <Route  path='/contact' component={ContactPage}/>
-                    <Route  path='/events' component={EventsPage}/>
+                    <Route  path={`${githubUrlPage}/contact`} component={ContactPage}/>
+                    <Route  path={`${githubUrlPage}/events`} component={EventsPage}/>
 
-                    <Route  path='/collab' component={CollabPage}/>
+                    {/* <Route  path='/collab' component={CollabPage}/>
                     <Route  path='/badges' component={BadgePage}/>
-                    <Route  path='/user' component={UserPage}/>
+                    <Route  path='/user' component={UserPage}/> */}
 
                 </Switch>
             </Layout>
