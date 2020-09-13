@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/bitddsc/static/css/main.c82195e6.chunk.css",
-    "main.js": "/bitddsc/static/js/main.17ee6da0.chunk.js",
-    "main.js.map": "/bitddsc/static/js/main.17ee6da0.chunk.js.map",
+    "main.css": "/bitddsc/static/css/main.fbf1e3d8.chunk.css",
+    "main.js": "/bitddsc/static/js/main.634249f4.chunk.js",
+    "main.js.map": "/bitddsc/static/js/main.634249f4.chunk.js.map",
     "runtime-main.js": "/bitddsc/static/js/runtime-main.10ada4f4.js",
     "runtime-main.js.map": "/bitddsc/static/js/runtime-main.10ada4f4.js.map",
     "static/css/2.c6f1d12b.chunk.css": "/bitddsc/static/css/2.c6f1d12b.chunk.css",
-    "static/js/2.56c355cc.chunk.js": "/bitddsc/static/js/2.56c355cc.chunk.js",
-    "static/js/2.56c355cc.chunk.js.map": "/bitddsc/static/js/2.56c355cc.chunk.js.map",
+    "static/js/2.595a8de7.chunk.js": "/bitddsc/static/js/2.595a8de7.chunk.js",
+    "static/js/2.595a8de7.chunk.js.map": "/bitddsc/static/js/2.595a8de7.chunk.js.map",
     "index.html": "/bitddsc/index.html",
-    "precache-manifest.cf5e41f2efe004e4d203faff7d0dcd38.js": "/bitddsc/precache-manifest.cf5e41f2efe004e4d203faff7d0dcd38.js",
+    "precache-manifest.09e0071b948e69ffd33aa4af05b7f42d.js": "/bitddsc/precache-manifest.09e0071b948e69ffd33aa4af05b7f42d.js",
     "service-worker.js": "/bitddsc/service-worker.js",
     "static/css/2.c6f1d12b.chunk.css.map": "/bitddsc/static/css/2.c6f1d12b.chunk.css.map",
-    "static/css/main.c82195e6.chunk.css.map": "/bitddsc/static/css/main.c82195e6.chunk.css.map",
-    "static/js/2.56c355cc.chunk.js.LICENSE.txt": "/bitddsc/static/js/2.56c355cc.chunk.js.LICENSE.txt",
+    "static/css/main.fbf1e3d8.chunk.css.map": "/bitddsc/static/css/main.fbf1e3d8.chunk.css.map",
+    "static/js/2.595a8de7.chunk.js.LICENSE.txt": "/bitddsc/static/js/2.595a8de7.chunk.js.LICENSE.txt",
     "static/media/discord.svg": "/bitddsc/static/media/discord.b3da00d2.svg",
     "static/media/dsc-home.svg": "/bitddsc/static/media/dsc-home.6cd0311d.svg",
     "static/media/dscIcon.png": "/bitddsc/static/media/dscIcon.145d0c12.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.10ada4f4.js",
     "static/css/2.c6f1d12b.chunk.css",
-    "static/js/2.56c355cc.chunk.js",
-    "static/css/main.c82195e6.chunk.css",
-    "static/js/main.17ee6da0.chunk.js"
+    "static/js/2.595a8de7.chunk.js",
+    "static/css/main.fbf1e3d8.chunk.css",
+    "static/js/main.634249f4.chunk.js"
   ]
 }
