@@ -55,8 +55,20 @@ a:hover{
 
 
 @media only screen and (max-width: 600px) {
-    .footerContainer{
+    .footerMain{
         flex-direction: column;
+        width: 100%;
+    }
+    .joinus{
+        width: 100%;
+        margin: 1.5em 0;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .joinus a {
+        margin: 1em;
     }
     
 }
